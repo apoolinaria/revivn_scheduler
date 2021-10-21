@@ -1,1 +1,1 @@
-# revivn_scheduler
+# rokt-photo-webapp

@@ -1,0 +1,44 @@
+{
+  "name": "rokt-photo-webapp",
+  "version": "1.0.0",
+  "description": "photo browsing and serching app using pexels api",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon server",
+    "build": "webpack --mode=development -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apoolinaria/rokt-photo-webapp.git"
+  },
+  "author": "Polina Chebanenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apoolinaria/rokt-photo-webapp/issues"
+  },
+  "homepage": "https://github.com/apoolinaria/rokt-photo-webapp#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.14.8",
+    "@babel/preset-env": "^7.14.8",
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^6.2.0",
+    "eslint": "^7.31.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "nodemon": "^2.0.12",
+    "style-loader": "^3.2.1",
+    "webpack": "^5.45.1",
+    "webpack-cli": "^4.7.2"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "material-ui": "^0.20.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "zustand": "^3.5.7",
+    "underscore": "^1.13.1"
+  }
+}
