@@ -5,7 +5,7 @@ module.exports.sampleData = [
     address: '888 Brannan St, San Francisco, CA 94103',
     notes:
       'Please make sure to have your access qr code and check in at the front desk',
-    status: 'shceduled',
+    status: '1',
   },
   {
     location: 'LinkedIn HQ',
@@ -13,7 +13,7 @@ module.exports.sampleData = [
     address: '888 Brannan St, San Francisco, CA 94103',
     notes:
       'Please make sure to have your access qr code and check in at the front desk',
-    status: 'shceduled',
+    status: '2',
   },
   {
     location: 'Revivn HQ',
@@ -21,7 +21,7 @@ module.exports.sampleData = [
     address: '888 Brannan St, San Francisco, CA 94103',
     notes:
       'Please make sure to have your access qr code and check in at the front desk',
-    status: 'shceduled',
+    status: '1',
   },
   {
     location: 'Swyft HQ',
@@ -29,7 +29,7 @@ module.exports.sampleData = [
     address: '888 Brannan St, San Francisco, CA 94103',
     notes:
       'Please make sure to have your access qr code and check in at the front desk',
-    status: 'shceduled',
+    status: '1',
   },
   {
     location: 'Salesforce HQ',
@@ -37,6 +37,6 @@ module.exports.sampleData = [
     address: '888 Brannan St, San Francisco, CA 94103',
     notes:
       'Please make sure to have your access qr code and check in at the front desk',
-    status: 'shceduled',
+    status: '3',
   },
 ];
