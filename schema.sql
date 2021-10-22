@@ -3,7 +3,7 @@ CREATE DATABASE schedules;
 
 USE schedules
 
-CREATE TABLE pickups (
+CREATE TABLE IF EXISTS pickups (
   id INT NOT NULL AUTO_INCREMENT,
   location_name varchar (100) NOT NULL,
   address varchar(150) NOT NULL,
@@ -12,7 +12,7 @@ CREATE TABLE pickups (
   status INT NOT NULL
 )
 
-CREATE TABLE users (
+CREATE TABLE IF EXISTS users (
   id INT NOT NULL AUTO_INCREMENT,
   email varchar (100) NOT NULL,
   first_name varchar(50) NOT NULL,

@@ -1,5 +1,6 @@
 const models = require('../models');
 
+// think about injection! how to protect this
 exports.pickups = {
   get: function (req, res) {
     models.pickups.getAllPickupsByUser(req.query.user_id, (err, data) => {
