@@ -2,8 +2,8 @@
 
 module.exports = {
   getAllPickupsByUserId: (id, callback) => {
-    const queryString = `SELECT * FROM pickups WHERE userId=${id}`;
-    db.query(queryString, (err, data) => {
+    const queryString = 'SELECT * FROM pickups WHERE userId = ?';
+    db.query(queryString, id, (err, data) => {
       if (err) {
         callback(err);
       } else {
